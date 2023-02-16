@@ -32,9 +32,14 @@ main {
 
 footer {
   background-color: $primary-color;
-  a {
-    color: white;
+
+  li {
+  list-style-type: none;
+    a {
+      color: white;
+    }
   }
+
 }
 
 // @media screen and (min-width: $tablet) {
